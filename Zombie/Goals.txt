@@ -1,0 +1,30 @@
+Goals
+-----
+[x] - Game world background
+[x] - Character Class
+- Moving character around the world using view
+- Loading game world using render texture
+- Move character around game world's render view
+- Loading (block) houses from a json file into the world
+	- Load only when the view reaches a section of the rendertexture
+
+
+if player is < 50% screen width
+	move player left or right
+
+if player >= 50% screen width
+	
+if keypress 'KEY'
+	if view position > screen_width/2 OR view position < (world_width - (screen_width/2))
+		move view position
+	else
+		if player >= 50% screen width
+			move view
+		if player is < 50% screen width
+			move view
+		if player is < 50% screen width
+			move player
+		if player is > 50% screen width
+			move player
+
+			^ above is wrong, will need to fix it properly

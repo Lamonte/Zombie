@@ -1,0 +1,735 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Prof",
+				"Profile_Scene"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Goals.txt",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Zombies.cs",
+			"settings":
+			{
+				"buffer_size": 2874,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WorldView.cs",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Player.cs",
+			"settings":
+			{
+				"buffer_size": 2999,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Lamonte/Downloads/SFML.Net-2.1/examples/window/Window.cs",
+			"settings":
+			{
+				"buffer_size": 5955,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "for(int i = 0; i < terrain.Count(); i++) {\n	\n	//current terrain\n	terrain[i][\"x\"]\n}",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Windows",
+				"name": "for(int i = 0; i < terrain.Count(); i++) {"
+			}
+		},
+		{
+			"contents": "if(e.Code == Keyboard.Key.W) {\n	...\n}",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "if we're moving right:\n	if sprite position x + sprite width is < 50%\n		move sprite x += speed\n	if sprite position x + sprite width is > 50% && view position x < view width - window width\n		move view x += speed\n	if sprite position x + sprite width is > 50% && view position x > view width - window width\n		move sprite x += speed\n\n			if(Keyboard.IsKeyPressed(Keyboard.Key.W)) {\n				y -= speed;\n			}\n\n			if(Keyboard.IsKeyPressed(Keyboard.Key.S)) {\n				y += speed;\n			}\n\n			if(Keyboard.IsKeyPressed(Keyboard.Key.A)) {\n				x -= speed;\n			}\n\n			if(Keyboard.IsKeyPressed(Keyboard.Key.D)) {\n				\n				//check if we're 50% less than the current window\n				if(x + width < (view.width / 2)) {\n					x += speed;\n				}\n\n				//check if the sprite is past the 50% window mark\n				//and start moving the view if possible\n				if(x + width > (view.width / 2) && view.x < (view.w_width - view.width)) {\n					view.move_view(speed, 0);\n				}\n\n				if(x + width > (view.width / 2) && view.x > (view.w_width - view.width)) {\n					x += speed;\n				}\n			} ",
+			"settings":
+			{
+				"buffer_size": 1027,
+				"line_ending": "Windows",
+				"name": "if we're moving right:"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Lamonte/Documents/Project/Json/Json/bin/Debug/example.json",
+		"/C/Users/Lamonte/Documents/Project/Json/Json/Program.cs",
+		"/C/Users/Lamonte/Downloads/SDL2-CS-master/README",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/CSharpSFML/CSharpSFML/Button.cs",
+		"/C/Users/Lamonte/Documents/Project/Zombie/Zombie/Goals.txt",
+		"/C/Users/Lamonte/Documents/Project/Zombie/Zombie/Player.cs",
+		"/C/Users/Lamonte/Documents/Project/Zombie/Zombie/Zombies.cs",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/CSharpSFML/CSharpSFML/Game.cs",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/CSharpSFML/CSharpSFML/DefaultScene.cs",
+		"/C/Users/Lamonte/Documents/cardgame/src/CSharp/Game.cs",
+		"/C/Users/Lamonte/Documents/cardgame/src/CSharp/DefaultScene.cs",
+		"/C/Users/Lamonte/Documents/cardgame/src/CSharp/Button.cs",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Lamonte/Downloads/Adobe Photoshop CC 14.0 Final Multilanguage [ChingLiu]/ChingLiu.Install.Notes.nfo",
+		"/C/wamp/www/Templates/handy/gh_prod_page.html",
+		"/C/wamp/www/Templates/handy/prod_page_static.html",
+		"/C/wamp/www/Templates/handy/aboutus.html",
+		"/C/wamp/www/Templates/handy/steps_static.html",
+		"/C/wamp/www/Templates/handy/gld_style.css",
+		"/C/Users/Lamonte/Downloads/enetcsharp/ENetDemo/Program.cs",
+		"/C/wamp/www/test/scrape/index.php",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Button.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Button.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scenes/Default.cpp",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/CSharpSFML/CSharpSFML/Scene.cs",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/CSharpSFML/CSharpSFML/SceneSwitcher.cs",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/SceneSwitcher.cpp",
+		"/C/Users/Lamonte/Downloads/SFML.Net-2.1/examples/window/Window.cs",
+		"/C/Users/Lamonte/Downloads/SFML.Net-2.1/examples/sound/Sound.cs",
+		"/C/Users/Lamonte/Documents/Project/dealsonrequest/index.php",
+		"/C/Users/Lamonte/Documents/Project/dealsonrequest/myrequestdeal.php",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/SceneSwitcher.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Game.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scene.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Callbacks/CB_Scene.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scenes/Default.h",
+		"/C/Users/Lamonte/Downloads/fluxbb-1.5.3/wp-config.php",
+		"/C/Users/Lamonte/Downloads/json-cpp-master/src/lib_json/json_tool.h",
+		"/C/Users/Lamonte/Downloads/json-cpp-master/src/lib_json/json_reader.cpp",
+		"/C/Users/Lamonte/Downloads/json-cpp-master/src/lib_json/json_batchallocator.h",
+		"/C/Users/Lamonte/Downloads/json-cpp-master/src/lib_json/json_writer.cpp",
+		"/C/Users/Lamonte/Downloads/json-cpp-master/src/lib_json/json_value.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/CB_Scene.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/CB_Scene.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Callbacks/Callback_Test.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Callbacks/Callback_Test.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Callback.h",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/cardgame/cardgame/Main.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Button.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Button.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Buttons.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Game.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scenes/Profile.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scenes/Profile.h",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Form_input.h",
+		"/C/wamp/www/sce/core/application/controllers/auth.php",
+		"/C/wamp/www/sce/core/application/controllers/base.php",
+		"/C/wamp/www/sce/core/application/controllers/data.php",
+		"/C/wamp/www/sce/core/application/controllers/events.php",
+		"/C/wamp/www/sce/core/application/controllers/pages.php",
+		"/C/wamp/www/sce/core/application/controllers/players.php",
+		"/C/wamp/www/sce/core/application/controllers/players.php.save",
+		"/C/wamp/www/sce/core/application/controllers/search.php",
+		"/C/wamp/www/sce/core/application/controllers/teams.php",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Form_Input.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Form_Input.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Main.cpp",
+		"/C/Users/Lamonte/Documents/Project/C++/Game/Scenes/All.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Scene.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/SceneSwitcher.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/SceneSwitcher.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Game.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Game.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Scenes/Default.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Scenes/Profile.cpp",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Scenes/Default.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Scenes/Profile.h",
+		"/C/Users/Lamonte/Documents/cardgame/src/cardgame/cardgame/Buttons.h",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/Project5/Debug/test.lua",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/GameProject/Debug/test.lua",
+		"/C/Libraries/LuaBridge/LuaBridge.h",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/Project5/Debug/class.lua",
+		"/C/Users/Lamonte/Documents/Project/C++/Lua/Visual Studio Project/Project5/Debug/test.lua",
+		"/C/Users/Lamonte/Downloads/lua-master/CMakeLists.txt",
+		"/C/Libraries/LuaBridge/detail/Userdata.h",
+		"/C/Libraries/LuaBridge/detail/TypeTraits.h",
+		"/C/Libraries/LuaBridge/detail/TypeList.h",
+		"/C/Libraries/LuaBridge/detail/Stack.h",
+		"/C/Libraries/LuaBridge/detail/LuaHelpers.h",
+		"/C/Libraries/LuaBridge/detail/LuaException.h",
+		"/C/Libraries/LuaBridge/detail/Namespace.h",
+		"/C/Libraries/LuaBridge/detail/Iterator.h",
+		"/C/Libraries/LuaBridge/detail/dump.h",
+		"/C/Libraries/LuaBridge/detail/FuncTraits.h",
+		"/C/Libraries/LuaBridge/detail/Constructor.h",
+		"/C/Libraries/LuaBridge/detail/ClassInfo.h",
+		"/C/Libraries/LuaBridge/detail/CFunctions.h",
+		"/C/Libraries/LuaBridge/RefCountedPtr.h",
+		"/C/Libraries/LuaBridge/RefCountedObject.h",
+		"/C/Libraries/LuaBridge/detail/LuaRef.h",
+		"/C/Users/Lamonte/Downloads/LuaBridge-master/Source/LuaBridge/LuaBridge.h",
+		"/C/Users/Lamonte/Downloads/LuaBridge-master/Source/LuaBridge/detail/dump.h",
+		"/C/Users/Lamonte/Downloads/luabind-master/CMakeLists.txt",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/testing/Debug/test.lua",
+		"/C/Users/Lamonte/Downloads/lua-master/cmake/FindLua.cmake",
+		"/C/Users/Lamonte/Downloads/luabind-master/INSTALL",
+		"/C/Users/Lamonte/Downloads/luabind-master/LICENSE",
+		"/C/Users/Lamonte/Downloads/MLuaBind-0.06/examples/hello.cpp",
+		"/C/Users/Lamonte/Downloads/luabind-0.9.1/INSTALL",
+		"/C/Users/Lamonte/Downloads/loki/loki-0.1.7/make.msvc.bat",
+		"/C/Users/Lamonte/Downloads/lua-5.2.2/CMakeLists.txt",
+		"/C/Libraries/lua/include/lua.h",
+		"/C/Libraries/lua/include/luaconf.h",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/Project3/Project3/main.cpp",
+		"/C/Libraries/luaxx/include/lua.hpp",
+		"/C/Libraries/luaxx/include/lua.h",
+		"/C/Users/Lamonte/Downloads/lua-5.2.2/README",
+		"/C/Users/Lamonte/Downloads/copydata.bat",
+		"/C/Users/Lamonte/Documents/GitHub/Polycode/vs2013.bat",
+		"/C/Libraries/luabind-0.9.1/boost-build.jam",
+		"/C/Libraries/luabind-0.9.1/Jamroot",
+		"/C/Users/Lamonte/Downloads/lua-5.2.2/Makefile",
+		"/C/Users/Lamonte/Documents/Visual Studio 2012/Projects/Project2/Release/example.lua",
+		"/C/Users/Lamonte/Downloads/boost_1_54_0/INSTALL",
+		"/C/Libraries/boost_1_54_0/tools/build/v2/boost-build.jam",
+		"/C/Users/Lamonte/Downloads/TGUI-0.5/example code/example code.cpp",
+		"/C/Users/Lamonte/Documents/Project Outline",
+		"/C/Program Files/Sublime Text 3/changelog.txt"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\wordpress\\wp-content\\themes\\salient,C:\\Users\\Lamonte\\Downloads\\LuaBridge-master",
+			"C:\\wamp\\www\\wordpress\\wp-content\\themes\\salient"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"deeper",
+			"n",
+			"false",
+			"GainedFocus",
+			"true",
+			"3000",
+			"10",
+			"1280",
+			"720",
+			"win_width",
+			"view",
+			"move",
+			"speed",
+			"0",
+			"speed",
+			"700",
+			"2000",
+			"rect",
+			"bgs",
+			"Player",
+			"int",
+			"consol",
+			"500",
+			"background",
+			"500",
+			"Program",
+			"gld_more_left",
+			"gld_more_right",
+			"gld_more_left",
+			"25px",
+			"666px",
+			"390px",
+			"373px",
+			"step_image",
+			"left",
+			"#aboutus_wrapper .step_left {\n	float: left;\n}",
+			"p",
+			"aboutus_image",
+			"aboutus_imagesrc",
+			"left",
+			"class",
+			"aboutus_image_left",
+			"relative",
+			"absolute",
+			"relative",
+			"ans",
+			"relative",
+			"span",
+			"right",
+			"h",
+			"left",
+			"gld_lighting",
+			"20px",
+			"center",
+			"h4",
+			"left",
+			"700px",
+			"h3",
+			"h2",
+			"h",
+			"10px",
+			"25px",
+			"last",
+			"left",
+			"gld_more_left",
+			"gld_head",
+			"h5",
+			"h3",
+			"3",
+			"25px",
+			"Title",
+			"20px",
+			"{\n",
+			"garland",
+			"Garland",
+			"Title",
+			"644px",
+			"class",
+			"_POST",
+			"description",
+			"call",
+			"execute",
+			"call",
+			"execute",
+			"click_callback",
+			"create_callback",
+			"even",
+			"mouseMove",
+			"1",
+			"0",
+			"btns.buttons",
+			"buttons[btn_itr]->",
+			"virtual",
+			"Form_Input",
+			"FORM_HEADER_H",
+			"width",
+			"height",
+			"Default_Scene",
+			"Form",
+			"image_height",
+			"image_width",
+			"image_height",
+			"image_width",
+			"lfs",
+			"Account",
+			"testing",
+			"var",
+			"sfasf",
+			"this",
+			"test",
+			"Test",
+			"days",
+			"obj",
+			"endclass",
+			"getglobalnamespace",
+			"beginclass",
+			"lua_ident",
+			"unable",
+			"\\",
+			"Libraries",
+			"monetization",
+			"cipherString",
+			"lettersGen",
+			"cipherString",
+			"padding-right: 16px",
+			"orbit-slide",
+			"list",
+			"100px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Goals.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Zombies.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "WorldView.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Player.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1694,
+								1694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Lamonte/Downloads/SFML.Net-2.1/examples/window/Window.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5701,
+								5495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"auto_name": "for(int i = 0; i < terrain.Count(); i++) {",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"auto_name": "if we're moving right:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 800.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.685643818116,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Zombie.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
